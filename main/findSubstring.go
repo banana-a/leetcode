@@ -1,5 +1,7 @@
 package main
 
+import "encoding/json"
+
 func findSubstring(s string, words []string) []int {
 	if s == "" || len(words) == 0 {
 		return nil
