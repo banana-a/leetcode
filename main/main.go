@@ -3,6 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	test := []string{"word", "good", "best", "good"}
-	fmt.Println(findSubstring("wordgoodgoodgoodbestword", test))
+	fmt.Println(firstMissingPositive([]int{1, 2, 3}))
 }
